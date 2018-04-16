@@ -31,7 +31,8 @@ body {
   font-size: 20px;
   line-height: 1.7;
   background-color: #fff;
-  font-family: "Helvetica Neue", NotoSansHans-Regular,AvenirNext-Regular,arial,Hiragino Sans GB,"Microsoft Yahei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 500;
 }
 a {
   color: #2f2f2f;
@@ -300,7 +301,7 @@ img { max-width: 100%; }
 .menu-wrap {
   position: fixed;
   z-index: 1001;
-  width: 300px;
+  width: 220px;
   height: 100%;
   right: 0;
   float: right;
@@ -324,14 +325,16 @@ img { max-width: 100%; }
 }
 .menu-list a {
   display: block;
-  padding: 1.5em 0;
+  padding: 1.3em 0;
   -webkit-transform: translate3d(0, 500px, 0);
   transform: translate3d(0, 500px, 0);
   color: #a5a5a5;
   position: relative;
+  font-weight: 500;
 }
+
 .menu-list a:hover, .menu-list a:active span {
-  color: #ffffff;
+  color: #FFB6C1;
 }
 .menu-list,
 .menu-list a {
@@ -363,33 +366,7 @@ img { max-width: 100%; }
 .menu-list a span:nth-last-child(1){
   margin-bottom: 100px;
 }
-.menu-list a span {
-  margin-left: 10px;
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  z-index: 2;
-  position: absolute;
-  margin-bottom: 20px;
-  padding: 10px;
-}
-.menu-list a span:before{
-  content: '';
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #ffffff;
-  -webkit-transition: width .3s ease;
-  transition: width .3s ease;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  -webkit-transform: translate(0,-50%);
-  -ms-transform: translate(0,-50%);
-  transform: translate(0,-50%);
-  z-index: -1;
-}
+
 .menu-list a.active span{
   color: #ffffff !important;
 }
@@ -437,6 +414,7 @@ h4,
 h5 {
   letter-spacing: 0.8px;
   font-family: 'Roboto Slab', serif;
+  font-weight: 500;
 }
 
 #home h1 {
@@ -1240,7 +1218,6 @@ ul.portfolio-image li .desc{
 
 .statuses li{
   padding:10px 0;
-  border-top: 1px solid #e8e8e8;
   position: relative;
 }
 

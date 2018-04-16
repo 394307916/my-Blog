@@ -1,10 +1,8 @@
-<form action="{{ route('search')}}" method="GET">
-	{{ csrf_field() }}
-	<div class="search" style="text-align: center">
-		<span class="glyphicon glyphicon-search"></span>&nbsp&nbsp
-		<input type="text" name="sou">
-		<button type="submit" class="btn btn-default">查找</button>
-	</div>
-</form>
+<div class="search bar1">
+        <form action="{{ route('search')}}" method="GET">
+        	{{ csrf_field() }}
+            <input type="text" name="sou" placeholder="请输入您要搜索的内容...">
+            <button type="submit"></button>
+        </form>
+</div>
 
-<br>

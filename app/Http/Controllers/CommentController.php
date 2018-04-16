@@ -8,22 +8,29 @@ use App\Comment;
 class CommentController extends Controller
 {
     public function show(){
-    	$comments = Comment::orderby('updated_at','desc')->paginate(10);
+    	$comments = Comment::orderby('updated_at','desc')->paginate(7);
 
     	return view('comments.show',compact('comments'));
     }
 
     public function store(Request $request){
-    	$this->validate($request,[
-    		'name' => 'required|max:50',
-    		'content' => 'required|max:255',
-    	]);
+        //$request->session()->flush();
+        if($request->session()->has('comment')){
+            session()->flash('danger','您提交过于频繁');
+            return redirect()->back();
 
-    	$comment = Comment::create([
-    		'name' => $request->name,
-    		'content' => $request->content,
-    	]);
+       }else{
+            $this->validate($request,[
+              'name' => 'required|max:50',
+              'content' => 'required|max:255',
+          ]);
 
-    	return redirect()->route('comment.show');
-    }
+           $comment = Comment::create([
+              'name' => $request->name,
+              'content' => $request->content,
+          ]);
+           session(['comment' => 'comment']);
+           return redirect()->route('comment.show');
+       }
+   }
 }

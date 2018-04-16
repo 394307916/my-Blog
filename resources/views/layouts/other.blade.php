@@ -20,6 +20,8 @@
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
 
+@yield('style')
+
 <!--[if lt IE 9]>
    <script type="text/javascript" src="js/html5shiv.min.js"></script>
 <![endif]-->

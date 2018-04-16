@@ -7,7 +7,7 @@
 			  <span>Skills</span>
 			</h3>
 			<p class="content-detail">
-			  html css javascript php python
+			  a little 
 			</p>
 		  </div>
 		  <div class="col-md-9 content-right">

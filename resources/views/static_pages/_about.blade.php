@@ -10,7 +10,7 @@
 			<div class="col-md-12">
 			  <div class="wrap-about">
 				<div class="w-content">
-				  <p class="head-about">
+				  <p>
 					Make haste in doing good, restrain your mind from evil. Whosoever is slow in doing well, his mind delights in evil?
 					As from a heap of flowers many a garland is made even so many good deeds should be done by one born a mortal.
 				  </p>
@@ -37,7 +37,7 @@
 					  <tr>
 						<td class="title">Email </td>
 						<td class="break">:</td>
-						<td> 394307916@qq.com</td>
+						<td> maple1@vip.qq.com</td>
 					  </tr>
 
 					  <tr>

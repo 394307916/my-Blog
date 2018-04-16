@@ -13,9 +13,9 @@
 					{{ csrf_field() }}
 					<div class="form-group">
 						<label for="user">Name:</label>
-						<input type="text" name="name" class="form-control">
+						<input type="text" name="name" class="form-control" required="required" >
 						<label for="comment">Comment:</label>
-						<textarea class="form-control" rows="5" name="content"></textarea>
+						<textarea class="form-control" rows="5" name="content" required="required" ></textarea>
 						<div align="center">
 						<button type="submit" class="btn btn-default">提交</button>
 						</div>
