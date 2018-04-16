@@ -10,7 +10,7 @@
 			<div class="col-md-12">
 			  <div class="wrap-about">
 				<div class="w-content">
-				  <p>
+				  <p class="head-about">
 					Make haste in doing good, restrain your mind from evil. Whosoever is slow in doing well, his mind delights in evil?
 					As from a heap of flowers many a garland is made even so many good deeds should be done by one born a mortal.
 				  </p>
