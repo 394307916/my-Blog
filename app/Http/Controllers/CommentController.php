@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Comment;
+use Mail;
 
 class CommentController extends Controller
 {
@@ -29,8 +30,23 @@ class CommentController extends Controller
               'name' => $request->name,
               'content' => $request->content,
           ]);
+           $this->sendEmailTo($comment);
            session(['comment' => 'comment']);
            return redirect()->route('comment.show');
        }
    }
+
+    protected function sendEmailTo($comment)
+    {
+        $view = 'email.notice';
+        $data = compact('comment');
+        $to = '394307916@qq.com';
+        $subject = "博客有一条新留言";
+
+        Mail::send($view, $data, function ($message) use ($to, $subject) {
+            $message->to($to)->subject($subject);
+        });
+    }
 }
+
+
