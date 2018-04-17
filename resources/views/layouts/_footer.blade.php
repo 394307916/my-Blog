@@ -17,7 +17,7 @@
 	  <div class="footer-bottom">
 		<div class="container">
 		  <div class="row" align="center">
-			Copyright &copy; 2018.Company name All rights reserved.
+			Design by ZiLong
 		  </div>
 		</div>
 	  </div>

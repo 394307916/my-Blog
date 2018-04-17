@@ -6,7 +6,7 @@
 <body>
     <h1>您有一条新的留言</h1>
     <h2>姓名:{{ $comment->name }}
-    <p>
+    <p>内容:
     {{ $comment->content }}
     </p>
 
