@@ -1,9 +1,9 @@
-<div class="effect-7">
-<nav class="cl-effect-7">
+<div class="effect-16">
+<nav class="cl-effect-16">
 
 @foreach($links as $link)
 
-<a href="{{ $link->address }}" target="_blank">{{ $link->name }}</a>
+<p><a href="{{ $link->address }}" data-hover="{{$link->name}}">{{ $link->name }}</a></p>
 
 @endforeach
 

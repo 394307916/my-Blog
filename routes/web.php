@@ -29,6 +29,8 @@ Route::get('myadmin','SessionsController@home')->name('myadmin');
 
 Route::delete('logout','SessionsController@destroy')->name('logout');
 
+Route::get('/linksearch','LinkController@search')->name('link.search');
+
 
 
 
