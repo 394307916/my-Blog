@@ -20,11 +20,11 @@ class ArticlePagesController extends Controller
 
     public function search(Request $request)
     {
-    	$key = trim($request->sou);
+    	$key = trim($request->value);
     	$articles = Article::where('title','like','%'.$key.'%')
     							->orderBy('updated_at','desc')
-    							->paginate(5);
+    							->get();
 
-    	return view('articles.home',compact('articles'));
+    	return $articles;
     }
 }

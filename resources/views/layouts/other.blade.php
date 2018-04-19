@@ -5,6 +5,7 @@
 <title>ZiLong's blog</title>
 <meta content="IE=edge" http-equiv="X-UA-Compatible">
 <meta content="width=device-width, initial-scale=1" name="viewport">
+<meta name="csrf-token" content="{{ csrf_token() }}">
 <!--Fav-->
 <link href="/images/favicon.ico" rel="shortcut icon">
 
@@ -22,17 +23,12 @@
 
 @yield('style')
 
-<!--[if lt IE 9]>
-   <script type="text/javascript" src="js/html5shiv.min.js"></script>
-<![endif]-->
 </head>
 <body>
 	<!--CONTENT WRAP-->
 <div class="content-wrap">
   <!--CONTENT-->
   <div class="content">
-
-	@include('texiao.zhairu')
 
 	@include('layouts._header')
 	<div class="container-fluid" style="padding-top: 70px">
@@ -72,6 +68,8 @@
 <script src="/js/smooth-scroll.min.js" type="text/javascript"></script>
 <script src="/js/typed.js" type="text/javascript"></script>
 <script src="/js/main.js" type="text/javascript"></script>
+
+@yield('script')
 
 </body>
 </html>

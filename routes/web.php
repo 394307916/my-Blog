@@ -16,7 +16,7 @@ Route::get('/articles','ArticlePagesController@index')->name('articles.index');
 Route::get('/articles/{article}','ArticlePagesController@show')->name('articles.show');
 Route::get('/moods','MoodController@show')->name('moods.show');
 
-Route::get('/search','ArticlePagesController@search')->name('search');
+Route::post('/search','ArticlePagesController@search')->name('search');
 Route::get('/address','LinkController@link')->name('link.show');
 
 Route::post('/comment','CommentController@store')->name('comment.store');
@@ -29,7 +29,7 @@ Route::get('myadmin','SessionsController@home')->name('myadmin');
 
 Route::delete('logout','SessionsController@destroy')->name('logout');
 
-Route::get('/linksearch','LinkController@search')->name('link.search');
+Route::post('/linksearch','LinkController@search')->name('link.search');
 
 
 

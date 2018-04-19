@@ -47,29 +47,16 @@ p{
 }
 
 /*搜索框1*/
-  form {
-  	position: relative;
-  	width: 300px;
-  	margin: 0 auto;
-  	margin-bottom: 18px;
-  }
-
-  input, button {
+  input{
   	border: none;
   	outline: none;
   }
 
   input {
-  	width: 100%;
+  	width: 300px;
   	height: 42px;
   	padding-left: 13px;
-  }
-
-  button {
-  	height: 42px;
-  	width: 42px;
-  	cursor: pointer;
-  	position: absolute;
+  	margin-bottom: 18px;
   }
         
   .bar1 {background: #f0f2f5;}
@@ -79,18 +66,7 @@ p{
   	background: #fff;
   	color: #9E9C9C;
   }
-  .bar1 button {
-  	top: 0;
-  	right: 0;
-  	background: #7BA7AB;
-  	border-radius: 0 5px 5px 0;
-  }
-  .bar1 button:before {
-  	content: "\f002";
-  	font-family: FontAwesome;
-  	font-size: 16px;
-  	color: #F9F0DA;
-  }
+
 </style>
 @stop
 
@@ -99,4 +75,10 @@ p{
 	@include('links._search')
 	@include('links._link')
 	
+@stop
+
+@section('script')
+
+<script src="/js/link_search.js" type="text/javascript"></script>
+
 @stop

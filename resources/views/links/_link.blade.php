@@ -1,5 +1,5 @@
 <div class="effect-16">
-<nav class="cl-effect-16">
+<nav class="cl-effect-16" id="all_link">
 
 @foreach($links as $link)
 

@@ -16,12 +16,12 @@ class LinkController extends Controller
 
     public function search(Request $request)
     {
-    	$key = trim($request->sou);
+    	$key = trim($request->get('value'));
 
     	$links = Link::where('name','like','%'.$key.'%')
     							->orderBy('updated_at','desc')
     							->get();
 
-    	return view('links.home',compact('links'));
+    	return $links;
     }
 }

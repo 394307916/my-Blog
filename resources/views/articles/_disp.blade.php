@@ -6,7 +6,7 @@
 
 	<div class="content-body" >
 		@if(count($articles) > 0)
-		<ul class="list-unstyled statuses">
+		<ul class="list-unstyled statuses" id="article_body">
 			@foreach($articles as $article)
 			@include('articles._article')
 			@endforeach

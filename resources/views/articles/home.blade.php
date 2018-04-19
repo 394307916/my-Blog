@@ -30,28 +30,15 @@
   }
 
   /*搜索框1*/
-  form {
-  	position: relative;
-  	width: 300px;
-  	margin: 0 auto;
-  }
-
-  input, button {
-  	border: none;
-  	outline: none;
-  }
 
   input {
-  	width: 100%;
+  	border: none;
+  	outline: none;
+  	width: 300px;
   	height: 42px;
   	padding-left: 13px;
-  }
-
-  button {
-  	height: 42px;
-  	width: 42px;
-  	cursor: pointer;
-  	position: absolute;
+  	margin-bottom: 12px;
+  	margin-top: 10px;
   }
         
   .bar1 {background: #fff;}
@@ -61,23 +48,17 @@
   	background: #fff;
   	color: #9E9C9C;
   }
-  .bar1 button {
-  	top: 0;
-  	right: 0;
-  	background: #7BA7AB;
-  	border-radius: 0 5px 5px 0;
-  }
-  .bar1 button:before {
-  	content: "\f002";
-  	font-family: FontAwesome;
-  	font-size: 16px;
-  	color: #F9F0DA;
-  }
 </style>
 @stop
 
 @section('content')
 
  	@include('articles._disp')
+
+@stop
+
+@section('script')
+
+<script src="/js/article_search.js" type="text/javascript"></script>
 
 @stop

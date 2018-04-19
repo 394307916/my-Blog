@@ -30,8 +30,6 @@
   <!--CONTENT-->
   <div class="content">
 
-	@include('texiao.zhairu')
-
 	@include('layouts._header')
 
 	@yield('content')
@@ -53,6 +51,8 @@
 <script src="/js/smooth-scroll.min.js" type="text/javascript"></script>
 <script src="/js/typed.js" type="text/javascript"></script>
 <script src="/js/main.js" type="text/javascript"></script>
+
+@yield('script')
 
 </body>
 </html>
