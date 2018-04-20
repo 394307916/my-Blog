@@ -15,6 +15,22 @@
 
   $(document).ready(function(){  
 
+    $("#scrollUp").click(function() {
+      $("html,body").animate({scrollTop:0}, 300);
+    }); 
+
+    $(window).bind('scroll',function(){
+        var zhuangtai = $("#scrollUp").css('display');
+        if(zhuangtai == "none"){
+        $('#scrollUp').css("display","block")
+        setTimeout(scrollNone,3000)
+        }
+    });
+
+    function scrollNone(){
+      $('#scrollUp').css("display","none");
+    }
+
     //active menu
  
     $(".menu-list").find("a").each(function () {
