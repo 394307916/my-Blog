@@ -379,7 +379,7 @@ img { max-width: 100%; }
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   -webkit-transition: -webkit-transform 0.8s;
-  transition: transform 0.5s;
+  transition: transform 0.8s;
   -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
@@ -388,13 +388,13 @@ img { max-width: 100%; }
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   -webkit-transition: -webkit-transform 0.8s;
-  transition: transform 0.5s;
+  transition: transform 0.8s;
   -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
 .show-menu .menu-list a {
   -webkit-transition-duration: 0.9s;
-  transition-duration: 0.7s;
+  transition-duration: 0.9s;
 }
 .show-menu .content::before {
   opacity: 1;
