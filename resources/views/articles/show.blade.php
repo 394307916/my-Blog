@@ -16,6 +16,7 @@
   }
   .content-body a{
     color: #d6514d;
+    text-decoration: underline;
   }
   .content-body h1,h2,h3,h4,h5,h6{
     font-weight:600;
@@ -64,4 +65,8 @@
   </div>
 
 </div>
+@stop
+
+@section('back')
+  <a id="backUp" href="javascript:history.go(-1)" style="position: fixed; z-index: 2147483647;display: black">back to behind</a>
 @stop

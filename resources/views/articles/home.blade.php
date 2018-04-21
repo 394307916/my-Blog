@@ -29,7 +29,7 @@
   	color:#a9a7a7;
   }
   .content-article a:hover{
-    text-shadow:0 0 0.2em #f87, 0 0 0.2em #f87;
+    text-shadow:0 0 0.2em #7FFFD4, 0 0 0.2em #7FFFD4;
   }
 
   /*搜索框1*/
