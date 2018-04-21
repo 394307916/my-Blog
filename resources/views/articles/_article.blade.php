@@ -2,7 +2,7 @@
 <li>
 	<a href="{{ route('articles.show',$article->id) }}">
 		<div>
-			<h3 class="year">{{ $article->title }}</h3>
+			<h4 class="year">{{ $article->title }}</h4>
 			<h5>
 				<span class="glyphicon glyphicon-user"></span>{{ $article->author }}
 				<span class="glyphicon glyphicon-time"></span>{{ $article->updated_at}}

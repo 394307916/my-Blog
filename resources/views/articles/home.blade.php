@@ -19,7 +19,7 @@
   }
   .content-article{
   	border-bottom: 1px solid #eeeeee;
-  	padding: 18px;
+    padding-left: 22px;
   }
   .content-article p{
   	font-size: 14px;
@@ -27,6 +27,9 @@
   }
   .content-article h5{
   	color:#a9a7a7;
+  }
+  .content-article a:hover{
+    text-shadow:0 0 0.2em #f87, 0 0 0.2em #f87;
   }
 
   /*搜索框1*/
