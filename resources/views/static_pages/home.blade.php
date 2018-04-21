@@ -1,13 +1,13 @@
 @extends('layouts.default')
 
-@section('content')
-	
-	@include('static_pages._theme')
-	@include('static_pages._about')
-	@include('static_pages._hobby')
-	@include('static_pages._skill')
+@section('style')
+<style type="text/css">
+body{
+	background-color: #f0f2f5;
+}
+</style>
+@stop
 
-	@include('static_pages._article')
-	@include('static_pages._poet')
+@section('content')
 
 @stop
