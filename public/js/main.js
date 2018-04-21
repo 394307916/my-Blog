@@ -4,7 +4,6 @@ $(function(){
   }); 
 
   $(window).bind('scroll',function(){
-    console.log('6666')
     var zhuangtai = $("#scrollUp").css('display');
     if(zhuangtai == "none"){
       $('#scrollUp').css("display","block")
