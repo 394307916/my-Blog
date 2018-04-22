@@ -9,7 +9,7 @@ class MoodController extends Controller
 {
     public function show()
     {
-    	$moods = Mood::orderBy('created_at','desc')->paginate(6);
+    	$moods = Mood::orderBy('created_at','desc')->get();
 
     	return view('moods.show',compact('moods'));
     }

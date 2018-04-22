@@ -8,10 +8,6 @@
 	box-sizing: border-box;
 }
 
-body{
-	background-color: #f0f2f5;
-}
-
 .box {
 	background-color: #fff;
 	padding: 10px;
@@ -69,6 +65,10 @@ body{
     font-size: 0.9em;
     color: #606060;
     margin-top: 8px;
+}
+
+.list-inline li:hover{
+	background-color: #D19275;
 }
 
 .list-inline > li {
@@ -157,6 +157,7 @@ ul {padding: 0px}
 .clearfix:after{
 	clear:both;
 }
+
 </style>
 @stop
 
@@ -184,17 +185,19 @@ ul {padding: 0px}
 						<li>
 							<a href="https://github.com/394307916" target="_blank">Github</a>
 						</li>
-						<li>
-							<a href="https://www.zhihu.com/people/bai-yun-jian-46/activities" target="_blank">知乎</a>
-						</li>
+
 						<li>
 							<a href="https://laravel-china.org/users/23607" target="_blank">Laravel</a>
+						</li>
+
+						<li>
+							<a href="https://www.zhihu.com/people/bai-yun-jian-46/activities" target="_blank">知乎</a>
 						</li>
 					</ul>
 				</div>
 				<hr>
 				<div class="box text-center" style="box-shadow: 0 0 0 0 #ddd, 0 0 0 1px #ddd;">
-					一个永远的菜鸟.
+					一个永恒的菜鸟.
 				</div>
 			</div>
 		</div>

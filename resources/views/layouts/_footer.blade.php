@@ -1,4 +1,3 @@
-	<!--FOOTER-->
 	<footer>
 	  <div class="footer-bottom">
 		<div class="container">
@@ -8,4 +7,4 @@
 		</div>
 	  </div>
 	</footer>
-	<!--/.FOOTER-END-->
+
