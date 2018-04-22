@@ -23,7 +23,7 @@
 <body>
 
 	@include('layouts._header')
-	<div class="container-fluid" style="padding-top: 70px">
+	<div class="container-fluid" id="container-content">
 		<div class="row">
 			<div class="article_background" >
 				<div class="col-sm-3">

@@ -141,3 +141,7 @@ aside textarea{
 .header a{
   font-size:16px;
 }
+
+#container-content{
+  padding-top: 5px;
+}

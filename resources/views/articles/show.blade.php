@@ -37,7 +37,7 @@
 @stop
 
 @section('content')
-<div class="container-fluid" style="padding-top: 65px">
+<div class="container-fluid" id="container-content">
   <div class="row">
   	<div class="article_background" >
   		<div class="col-sm-2"></div>

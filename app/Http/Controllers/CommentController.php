@@ -9,7 +9,7 @@ use Mail;
 class CommentController extends Controller
 {
     public function show(){
-    	$comments = Comment::orderby('updated_at','desc')->paginate(7);
+    	$comments = Comment::orderby('updated_at','desc')->paginate(6);
 
     	return view('comments.show',compact('comments'));
     }

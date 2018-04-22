@@ -4,6 +4,6 @@
 	@foreach($moods as $mood)
 	@include('moods._mood')
 	@endforeach
-
+	{!! $moods->render() !!}
 
 @endif
