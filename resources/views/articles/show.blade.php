@@ -10,8 +10,7 @@
     border: 1px solid #eeeeee;
   }
   .content-body{
-    padding-left:22px;
-    padding-right: 22px;
+    padding: 22px;
     font-weight: normal;
   }
   .content-body a{
