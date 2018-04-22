@@ -20,7 +20,7 @@ $(function(){
 				}else{
 					$('#all_link').empty();
 					$.each(data,function(index,item){
-						var html = '<p><a href="'+data[index].address+'" data-hover="'+data[index].name+'">'+data[index].name+'</a></p>';
+						var html = '<p><a href="'+data[index].address+'" data-hover="'+data[index].name+'" target="_blank">'+data[index].name+'</a></p>';
 						$('#all_link').append(html);					
 					});					
 				}						
