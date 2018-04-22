@@ -20,7 +20,7 @@ class UsersTableSeeder extends Seeder
 
         $user->name = 'Long';
 
-        $user->email = '394307916@qq.com';
+        $user->email = '2548083675@qq.com';
 
         $user->password = bcrypt('123456');
 
