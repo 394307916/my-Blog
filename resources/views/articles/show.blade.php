@@ -45,7 +45,7 @@
         <div class="content-main">
 
           <div class="content-title">
-         <h2 style="text-align: center" class="year">{{ $article->title }}</h2>
+         <h2 style="text-align: center">{{ $article->title }}</h2>
          <h4 style="text-align: center">
           <span class="glyphicon glyphicon-user"></span>{{ $article->author }}
           <span class="glyphicon glyphicon-time"></span>{{ $article->updated_at}}
