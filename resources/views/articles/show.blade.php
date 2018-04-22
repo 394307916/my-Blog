@@ -12,17 +12,14 @@
   .content-body{
     padding-left:22px;
     padding-right:22px;
-    padding-top:15px;
-    padding-bottom:15px;
+    padding-top:5px;
     font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
   }
   .content-body a{
     color: #d6514d;
     text-decoration: underline;
   }
-  .content-body h1,h2,h3,h4,h5,h6{
-    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
-  }
+
   footer{
     margin-top: 22px;
   }
