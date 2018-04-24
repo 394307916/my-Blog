@@ -66,6 +66,3 @@
 </div>
 @stop
 
-@section('back')
-  <a id="backUp" href="javascript:history.go(-1)" style="position: fixed; z-index: 2147483647;display: black">back to behind</a>
-@stop
