@@ -2,10 +2,10 @@
 	<article id="about" class="clearfix">
 		<section id="introduction" class="clearfix">
 			<h1>关于我</h1>
-			<p>很水很水，水得我不想介绍自己</p>
+			<p>不要迷恋哥</p>
 			<ul>
 				<li><span>Name</span> : 子龙</li>
-				<li><span>Date of birth</span> : 1997</li>
+				<li><span>hobby</span> : 吹水</li>
 				<li><span>Location</span> : 中国</li>
 			</ul>
 
