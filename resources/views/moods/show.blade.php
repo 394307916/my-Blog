@@ -13,6 +13,9 @@
 		border-radius: 4px;
     	box-shadow: 0 0px 1px #c2c2c2;
 	}
+	h5{
+		color:#808080;
+	}
 </style>
 @stop
 
