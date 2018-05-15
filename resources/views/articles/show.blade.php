@@ -41,9 +41,9 @@
 <div class="container-fluid" id="container-content">
   <div class="row">
   	<div class="article_background" >
-  		<div class="col-sm-1"></div>
+  		<div class="col-sm-2"></div>
 
-  		<div class="col-sm-10">
+  		<div class="col-sm-8">
         <div class="content-main">
 
           <div class="content-title">
@@ -61,7 +61,7 @@
       </div>
     </div>
 
-  		<div class="col-sm-1"></div>
+  		<div class="col-sm-2"></div>
   	</div>
   </div>
 
