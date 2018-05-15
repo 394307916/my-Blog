@@ -108,15 +108,15 @@
 	<div class="container-fluid" id="container-content">
 		<div class="row">
 			<div class="article_background" >
-				<div class="col-sm-3">
+				<div class="col-sm-2">
 
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-8">
 
 					@yield('content')
 
 				</div>
-				<div class="col-sm-3">
+				<div class="col-sm-2">
 
 				</div>
 			</div>

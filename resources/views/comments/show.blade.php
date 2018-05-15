@@ -9,6 +9,8 @@
 		background-color: #ffffff;
   		border: 1px solid #eeeeee;
   		padding:22px;
+  		border-radius: 4px;
+    	box-shadow: 0 0px 1px #c2c2c2;
 	}
 	footer{
 		margin-top: 22px;

@@ -8,6 +8,8 @@
   .content-main{
   	background-color: #ffffff;
   	border: 1px solid #eeeeee;
+    border-radius: 4px;
+    box-shadow: 0 0px 1px #c2c2c2;
   }
 
   footer{
@@ -25,11 +27,18 @@
   	font-size: 14px;
   	color:#a9a7a7;
   }
-  .content-article h5{
-  	color:#a9a7a7;
+  .article_author{
+  	color:#8FBC8F;
+    font-size: 18px;
+    float: right;
+    padding-right: 5px;
+  }
+  .article_title{
+    font-size: 20px;
+    color: #808080;
   }
   .content-article a:hover{
-    text-shadow:0 0 0.2em #7FFFD4, 0 0 0.2em #7FFFD4;
+    text-shadow:0 0 0.2em #FA8072, 0 0 0.2em #FA8072;
   }
 
   /*搜索框1*/

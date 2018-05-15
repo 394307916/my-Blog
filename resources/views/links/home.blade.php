@@ -3,7 +3,7 @@
 @section('style')
 <style type="text/css">
 body{
-	background-color: #f0f2f5;
+	background-color: #f2f2f5;
 }
 
 footer{
@@ -15,6 +15,10 @@ p{
 }
 
 /* Effect 16: fall down */
+.effect-16{
+	box-shadow: 0 0px 5px #c2c2c2;
+	border-radius: 4px;
+}
 .cl-effect-16 a {
 	font-size: 25px;
 	font-weight: 500;
