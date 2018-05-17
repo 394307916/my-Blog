@@ -2,15 +2,15 @@
 	<article id="about" class="clearfix">
 		<section id="introduction" class="clearfix">
 			<h1>关于我</h1>
-			<p>不要迷恋哥</p>
+			<p>死如秋叶之静美</p>
 			<ul>
-				<li><span>Name</span> : 子龙</li>
-				<li><span>hobby</span> : 吹水</li>
+				<li><span>Name</span> : ZiLong</li>
+
 				<li><span>Location</span> : 中国</li>
 			</ul>
 
 			<ul>
-				<li><span>Phone</span> : 不告诉你 </li>
+
 				<li><span>Website</span> : www.yzloo.com</li>
 			</ul>
 		</section>
