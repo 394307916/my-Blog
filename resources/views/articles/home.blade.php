@@ -64,8 +64,18 @@
 @stop
 
 @section('content')
+        <div class="col-sm-1">
 
- 	@include('articles._disp')
+        </div>
+        <div class="col-sm-9">
+
+        @include('articles._disp')
+
+        </div>
+        <div class="col-sm-1">
+
+        </div>
+ 	
 
 @stop
 

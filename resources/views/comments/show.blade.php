@@ -19,9 +19,23 @@
 @stop
 
 @section('content')
-	@include('shared._message')
+
+				<div class="col-sm-2">
+
+				</div>
+				<div class="col-sm-8">
+
+						@include('shared._message')
 	<div class="content-main">
 	@include('comments._store')
 	@include('comments._disp')
 	</div>
+
+				</div>
+				<div class="col-sm-2">
+
+				</div>
+
+
+
 @stop

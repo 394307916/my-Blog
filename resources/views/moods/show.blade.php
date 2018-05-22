@@ -21,6 +21,17 @@
 
 @section('content')
 
-  @include('moods._disp')
+				<div class="col-sm-2">
+
+				</div>
+				<div class="col-sm-8">
+
+					@include('moods._disp')
+
+				</div>
+				<div class="col-sm-2">
+
+				</div>
+  
 
 @stop

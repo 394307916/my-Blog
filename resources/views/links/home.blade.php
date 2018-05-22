@@ -15,10 +15,7 @@ p{
 }
 
 /* Effect 16: fall down */
-.effect-16{
-	box-shadow: 0 0px 5px #c2c2c2;
-	border-radius: 4px;
-}
+
 .cl-effect-16 a {
 	font-size: 25px;
 	font-weight: 500;
@@ -63,7 +60,7 @@ p{
   	margin-bottom: 18px;
   }
         
-  .bar1 {background: #f0f2f5;}
+
   .bar1 input {
   	border: 2px solid #7BA7AB;
   	border-radius: 5px;
