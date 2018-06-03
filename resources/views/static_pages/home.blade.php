@@ -173,7 +173,7 @@ ul {padding: 0px}
 						<div class="media">
 							<div class="media-left">
 								<div class="image">
-									<img src="/images/cxy.jpg" style="border-radius: 50%;">
+									<img src="/images/cxy.jpg">
 								</div>
 							</div>
 						</div>
