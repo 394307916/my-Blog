@@ -12,9 +12,9 @@
 			<ul class="nav navbar-nav">
 				<li><a href="{{ route('home') }}">主页</a></li>
 				<li><a href="{{ route('articles.index') }}">文章</a></li>
-				<li><a href="{{ route('moods.show') }}">说说</a></li> 
+				<li><a href="{{ route('moods.show') }}">留言</a></li> 
 				<li><a href="{{ route('link.show') }}">常用链接</a></li> 
-				<li><a href="{{ route('comment.show') }}">留言板</a></li>
+				
 			</ul>
 		</div>
 	</div>

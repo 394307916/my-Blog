@@ -1,37 +1,67 @@
-@extends('layouts.other')
+@extends('layouts.default')
 
 @section('style')
 <style type="text/css">
-	body{
-		background-color: #f0f2f5;
-	}
-	.content-mood{
-		border: 1px solid #eeeeee;
-		background-color: #fff;
-		margin: 10px;
-		padding:18px;
-		border-radius: 4px;
-    	box-shadow: 0 0px 1px #c2c2c2;
-	}
-	h5{
-		color:#808080;
-	}
+body{
+	background-color: #f0f2f5;
+}
+.content-mood{
+	color: #fff;
+	border: 1px solid #eeeeee;
+	background-color: 	#E9967A;
+	margin: 10px;
+	padding:18px;
+	margin-top: 18px;
+	border-radius: 4px;
+	box-shadow: 0 0px 1px #c2c2c2;
+}
+
+.content-comment{
+	border: 1px solid #eeeeee;
+	background-color: 	#fff;
+	margin: 10px;
+	padding:18px;
+	margin-top: 18px;
+	border-radius: 4px;
+	box-shadow: 0 0px 1px #c2c2c2;
+}
+
+.content-main{
+	background-color: #6495ED;
+	border: 1px solid #eeeeee;
+	padding:22px;
+	margin-top: 18px;
+	border-radius: 4px;
+	box-shadow: 0 0px 1px #c2c2c2;
+}
+
+h5{
+	color:#808080;
+}
 </style>
 @stop
 
 @section('content')
 
-				<div class="col-sm-2">
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-5">
+			@include('moods._disp')
+		</div>
 
-				</div>
-				<div class="col-sm-8">
+		<div class="col-sm-5">
+			@include('shared._message')
+			<div class="content-main">
+				@include('moods._store')
+				@include('moods._disp_c')
+			</div>
+		</div>
 
-					@include('moods._disp')
+		<div class="col-sm-1"></div>
+	</div>
+</div>
 
-				</div>
-				<div class="col-sm-2">
 
-				</div>
-  
 
 @stop

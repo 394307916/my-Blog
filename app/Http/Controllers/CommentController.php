@@ -5,13 +5,15 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Comment;
 use Mail;
+use App\Mood;
 
 class CommentController extends Controller
 {
     public function show(){
     	$comments = Comment::orderby('updated_at','desc')->paginate(6);
+      $moods = Mood::orderBy('created_at','desc')->get();
 
-    	return view('comments.show',compact('comments'));
+    	return view('moods.show',compact('comments','moods'));
     }
 
     public function store(Request $request){
@@ -32,7 +34,7 @@ class CommentController extends Controller
           ]);
            $this->sendEmailTo($comment);
            session(['comment' => 'comment']);
-           return redirect()->route('comment.show');
+           return redirect()->route('moods.show');
        }
    }
 
