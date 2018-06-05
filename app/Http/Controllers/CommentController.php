@@ -34,6 +34,7 @@ class CommentController extends Controller
           ]);
            $this->sendEmailTo($comment);
            session(['comment' => 'comment']);
+           session()->flash('success','评论成功！');
            return redirect()->route('moods.show');
        }
    }
