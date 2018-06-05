@@ -27,8 +27,8 @@
 </div>
 -->
 
-<div align="center">
-<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">留言</button></div>
+
+<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">留言</button>
 <div id="demo" class="collapse">
 	<form action="{{ route('comment.store')}}" method="POST">
 		{{ csrf_field() }}
