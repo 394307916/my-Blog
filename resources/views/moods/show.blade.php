@@ -55,8 +55,9 @@ footer{
 		</div>
 
 		<div class="col-sm-5">
-			@include('shared._message')
+			
 			<div class="content-main">
+				@include('shared._message')
 				@include('moods._store')
 				@include('moods._disp_c')
 			</div>
