@@ -38,6 +38,10 @@ body{
 h5{
 	color:#808080;
 }
+
+footer{
+	padding-top: 22px;
+}
 </style>
 @stop
 
