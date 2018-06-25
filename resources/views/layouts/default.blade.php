@@ -38,9 +38,6 @@
 
 
 @yield('script')
-
-<a id="scrollUp" href="javascript:void(0)" style="position: fixed; z-index: 2147483647;display: none">Scroll to top</a>
-
 @yield('back')
 
 </body>

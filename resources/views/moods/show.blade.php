@@ -67,6 +67,8 @@ footer{
 	</div>
 </div>
 
+@stop
 
-
+@section('back')
+<a id="scrollUp" href="javascript:void(0)" style="position: fixed; z-index: 2147483647;display: block">Scroll to top</a>
 @stop
