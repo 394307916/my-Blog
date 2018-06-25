@@ -3,7 +3,7 @@ $(function(){
     $("html,body").animate({scrollTop:0}, 300);
   }); 
 
-  $(window).bind('scroll',function(){
+/*  $(window).bind('scroll',function(){
     var zhuangtai = $("#scrollUp").css('display');
     if(zhuangtai == "none"){
       $('#scrollUp').css("display","block")
@@ -13,7 +13,7 @@ $(function(){
 
   function scrollNone(){
     $('#scrollUp').css("display","none");
-  }
+  }*/
 
   $(".navbar-nav").find("li").each(function () {
     var a = $(this).find("a:first")[0];
