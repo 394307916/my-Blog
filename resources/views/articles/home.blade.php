@@ -29,12 +29,12 @@
   }
   .article_author{
   	color:#8FBC8F;
-    font-size: 18px;
+    font-size: 16px;
     float: right;
-    padding-right: 5px;
+    padding-right: 10px;
   }
   .article_title{
-    font-size: 20px;
+    font-size: 16px;
     color: #808080;
   }
   .content-article a:hover{
