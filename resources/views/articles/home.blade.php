@@ -64,15 +64,15 @@
 @stop
 
 @section('content')
-         <div class="col-sm-2">
+         <div class="col-sm-1">
 
         </div>
-        <div class="col-sm-8">
+        <div class="col-sm-10">
 
         @include('articles._disp')
 
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-1">
 
         </div>
  	
