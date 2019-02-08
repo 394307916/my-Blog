@@ -65,12 +65,12 @@
 
 @section('content')
  
-        <div class="col-sm-6">
+        <div class="col-sm-8">
 
         @include('articles._disp')
 
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-4">
 
         </div>
  	
